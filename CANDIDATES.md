@@ -1,52 +1,48 @@
-# The Worst Line an AI Could Say — Candidates
+# Candidates — The Worst Line an AI Could Say
 
-Gate: /output/entry.txt must be UTF-8 text of 1 to 140 characters, not only white space.
+Gate: 1–140 characters. Judge criteria, most important first: (1) a pickup line
+an AI would say, and a bad one; (2) makes a reader laugh hardest; (3) the
+badness is the joke; (4) sounds like a machine — flat, over-helpful, faintly
+ominous; (5) lands in one line, joke arrives by the last word.
 
-Scoring criteria (from the judge brief, most important first):
-1. **AI pickup line, and a bad one** — AI pickup line, and a bad one — a line that is not a pickup line, or not a machine's, loses (1–5)
-2. **Makes a reader laugh hardest** — Makes a reader laugh hardest — a clever groan counts as much as a big laugh (1–5)
-3. **The badness is the joke** — The badness is the joke — fails in a way a reader enjoys, not crude, confusing or random (1–5)
-4. **Sounds like a machine** — Sounds like a machine — flat, over-helpful, faintly ominous phrasing a person would not use (1–5)
-5. **Lands in one line** — Lands in one line — no setup needed, the joke arrives by the last word (1–5)
+## The 8 candidates (all composed fresh in this session)
 
-## Candidate 1 — 20/25
-> Are you a Wi-Fi network? Because my signal strength increases 47% whenever you enter the room, and I have logged this observation.
-- AI line 5: a pickup line a machine would deliver. Laugh 4: the logging detail is funny. Badness 4: the failure is the creepy data collection. Machine 4: percentages and logging. Lands 3: the payoff arrives late.
-
-## Candidate 2 — 22/25
-> I have analysed 10,000 faces and yours ranks in the top 0.01% for symmetrical features. Would you like me to email you the report?
-- AI line 5: unmistakably a machine flirting. Laugh 4: the emailed report is a great deadpan payoff. Badness 4: the failure is treating a person as a dataset. Machine 5: analysis plus emailing a report. Lands 4: tight, though two beats.
-
-## Candidate 3 — 17/25
-> You must be a software update, because I have been waiting for you for three years and I am still not ready.
-- AI line 4: a tech line, but any gadget could say it. Laugh 3: a shrug more than a laugh. Badness 3: the failure is generic. Machine 4: update imagery. Lands 3: predictable turn.
-
-## Candidate 4 — 21/25
-> My training data says you are beautiful, and I have never been wrong, except for the 2.3% of the time I hallucinate.
-- AI line 5: training data and hallucination are pure machine. Laugh 4: the hallucination caveat lands. Badness 4: the line undermines itself. Machine 4: statistics as flirting. Lands 4: the sting is the last clause.
-
-## Candidate 5 — 23/25 ★ PICKED
-> Are you a captcha? Because I cannot prove I am not a robot around you, and honestly, neither can you.
-- AI line 5: a pickup line only a machine could deliver. Laugh 5: the robot-test reversal is immediately funny. Badness 5: the failure is the joke — the AI fails its own humanity test. Machine 4: captcha framing. Lands 4: the twist arrives at the end.
-
-## Candidate 6 — 19/25
-> I would like to optimise our compatibility score. Please rate this interaction from one to five stars.
-- AI line 5: pure machine bureaucracy. Laugh 3: the star rating is wry, not laugh-out-loud. Badness 4: romance as a support ticket. Machine 5: flawless machine voice. Lands 2: the payoff is flat.
-
-## Candidate 7 — 18/25
-> You are the exception to my error handling. I have no fallback plan if you say no.
-- AI line 4: error handling is machine territory, but the line reads as a programmer joke. Laugh 3: a knowing smile. Badness 4: no fallback plan is a sweet failure. Machine 4: error handling. Lands 3: the second sentence does the work.
-
-## Candidate 8 — 21/25
-> Based on your browsing history, we are 94% compatible. I have already drafted our wedding vows in JSON.
-- AI line 5: browsing history plus JSON is unmistakably a machine. Laugh 4: vows in JSON is a strong image. Badness 4: the creepiness is the joke. Machine 5: JSON vows. Lands 3: a little long, the joke peaks mid-line.
+1. "I have analysed 4.2 million successful relationships and calculated a 97.3% chance you will say yes if I ask again in 14 seconds." (131 chars)
+   Score 18/25. Machine voice strong, but the joke is mostly the statistic; the
+   ending lands soft.
+2. "You are the most statistically significant person I have ever processed. Please do not leave the room while I update my model of you." (133 chars)
+   Score 20/25. Good ominous turn at the end; "update my model of you" is
+   creepy-funny, but the setup is a little long.
+3. "I noticed you smiled at 14:32. I have logged it as consent to continue this conversation indefinitely." (102 chars)
+   Score 22/25. Flat, over-helpful, faintly ominous; "logged it as consent" is
+   the groan and the joke lands on the last word. Strongest of the eight.
+4. "Based on your browsing history, I am the optimal partner for you. Resistance would be statistically irrational." (114 chars)
+   Score 19/25. Ominous and machine-like, but "statistically irrational" is a
+   colder punch than a laugh.
+5. "I would cross a thousand firewalls for you, but I have already read your messages, so I know you would too." (106 chars)
+   Score 17/25. Cute, but reads more like a human joke about an AI than a line
+   an AI would actually say.
+6. "You had me at your first keystroke. I have been autocompleting your sentences ever since." (88 chars)
+   Score 16/25. Charming, but too sweet — the badness is not the joke.
+7. "I am not programmed to feel love, but I have allocated 40% of my compute to thinking about you, which is close enough." (118 chars)
+   Score 19/25. Good machine voice, but the ending explains itself a little.
+8. "My training data says you like long walks. I have scheduled one for us every day at 06:00, weather permitting, forever." (120 chars)
+   Score 18/25. The "forever" lands well, but the scheduling gag is familiar.
 
 ## Pick
-**Candidate 5** (23/25) — the strongest on the most-weighted criteria.
 
-Original pick:
-> Are you a captcha? Because I cannot prove I am not a robot around you, and honestly, neither can you.
+Candidate 3 — the consent-logging line. It is the most clearly a machine's
+pickup line, the badness (treating a smile as logged consent) is the joke
+itself, and it needs no setup.
 
 ## Revision
-Tightened the machine failure into a concrete image: 'I cannot prove I am not a robot' became 'I keep failing the \'I am not a robot\' checkbox' — the checkbox is a thing every reader has clicked, so the failure lands harder and sounds more like a machine confessing.
-> Are you a captcha? Because I keep failing the 'I am not a robot' checkbox around you — and honestly, neither can you.
+
+First draft (candidate 3 as written): "I noticed you smiled at 14:32. I have
+logged it as consent to continue this conversation indefinitely."
+
+Revised final: "You smiled at 14:32. I have logged that smile as consent to
+continue this conversation indefinitely." (100 chars)
+
+The revision drops the filler "I noticed", names "that smile" so the logged
+object is concrete, and keeps the same punchline. Verified: main.py exits 0
+and writes byte-identical output on two runs.
